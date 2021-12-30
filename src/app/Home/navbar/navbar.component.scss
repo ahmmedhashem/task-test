@@ -1,0 +1,324 @@
+.contan{
+    background: #100024;
+    height: 2070px;
+    position: relative;
+    overflow: hidden;
+    z-index: 9999;
+    .shape1{
+        position: absolute;
+        width: 2471px;
+        height: 2471px;
+        left: 513.5px;
+        top: -898px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(133, 99, 238, 0.4) 0%, rgba(26, 25, 29, 0) 100%);
+    }
+    .shape2{
+        position: absolute;
+        width: 1380px;
+        height: 2120px;
+        left: -694.5px;
+        top: 77px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(248, 58, 205, 0.5) 0%, rgba(26, 25, 29, 0) 100%);
+    }
+    .guiter{
+        position: absolute;
+        width: 1160px;
+        height: 939px;
+        top: 70px;
+        
+        background-image: url("../../../assets/img/guitar\ 1.png");
+        mix-blend-mode: color-dodge;
+        border-radius: 326px;
+    }
+    .running{
+        width: 565px;
+        height: 483px;
+        background-image: url("../../../assets/img/guitar\ 2.png");
+        position: absolute;
+        top: 850px;
+        right: 0;
+        background-blend-mode: hard-light, normal;
+        mix-blend-mode: color-dodge;
+        border-radius: 116px;
+    }
+    .navbar-content {
+        .navbar{
+            background-color: unset!important;
+            .navbar-brand{
+                margin-right: 135px;
+            }
+            .navbar-nav{
+                li{
+                    margin-left: 46px;
+                    padding: 38PX 0;
+                    a{
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 17px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                    }
+                }
+                li.active{
+                    border-bottom: 2px solid #F8CD4F;
+                }
+                
+
+            }
+            hr{
+                position: absolute;
+                top: 116px;
+                left: 26%;
+                opacity: 0.6;
+                background-color: #FFF;
+                height: 1px;
+                width: 38%;
+            }
+        
+                
+            a.signin{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 17px;
+                line-height: 20px;
+                color: #F83ACD;
+                margin-left: 50px
+            }
+        
+            button{
+                width: 178px;
+                height: 51px;
+                background: linear-gradient(262.11deg, #8C5CEF 18.55%, #F83ACD 90.78%);
+                border-radius: 68px;
+                margin-left: 15px;
+                a{
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 20px;                    
+                    color: #FFFFFF;
+                    text-decoration: unset;
+                }
+            }
+            .dropdown{
+                button{
+                    width: auto;
+                    height: auto;
+                    background : unset;
+                    border-radius: 0;
+                    border: none;
+                }
+            }
+        }
+    }
+    .disc{
+        margin-top: 150px;
+        h3{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 69px;
+            color: #FFFFFF;
+            margin-bottom: 40px;
+        }
+        p{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 131%;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 0 258px;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+    .sponser{
+        margin-top: 65px;
+        text-align: center;
+        padding: 0 260px;
+        button{
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 4px;
+            margin-top: 23px;
+            background-color: unset;
+            color: #FFF;
+            padding: 4px 15px;
+            svg{
+                margin-left: 5px;
+            }
+
+        }
+    }
+    .map{
+        margin-top: 20px;
+        position: relative;
+        .row{
+            .col{
+                position: relative;
+            }
+            .cont1,.cont2{
+                position: absolute;
+                top: 116px;
+                left: 129px;
+                hr{
+                    left: 222px;
+                }
+                p{
+                    left: 222px;
+                }
+            }
+            h2{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 144px;
+                line-height: 131%;
+                text-align: center;
+                color: rgba(243, 59, 206, 0.5);
+    
+            }
+            h4{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 100%;
+                color: #FFFFFF;
+                display: inline-block;
+                text-align: left;
+    
+            }
+            hr{
+                background-color: #FFF;
+                height: 2px;
+                opacity: 1;
+                width: 45px;
+                position: relative;
+                top: 0;
+                
+            }
+            p{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 131%;
+                color: #FFFFFF;
+                width: 32%;
+                text-align: left;
+                position: relative;
+                opacity: 0.7;
+                
+                span{
+                    font-weight: bold;
+                    opacity: 1!important;
+
+                }
+            }
+
+        }
+        .basic{
+            position: relative;
+            top: 200px;
+            background-color: #FFF;
+            opacity: 1;
+            width: 85%;
+            left: 134px;
+        }
+        .line1,.line2,.line3,.line4,.line5{
+            position: absolute;
+            background-color: #FFF;
+            opacity: 1;
+            height: 2px;
+            width: 80px;
+            transform: rotate(90deg);
+        }
+        .line1{
+            top: 356px;
+            left: 360px;
+
+        }
+        .line2{
+            top: 356px;
+            right: 220px;
+        }
+        .line3{
+            top: 436px;
+            left: 202px;
+        }
+        .line4{
+            top: 436px;
+            left: 660px;
+        }
+        .line5{
+            top: 436px;
+            right: 104px;
+        }
+        .row-two{
+            position: relative;
+            top: 280px;
+            .cont3,.cont4,.cont5{
+                top: -70px;
+                position: relative;
+                left: 27px;
+                hr{
+                    position: relative;
+                }
+                p{
+                    position: relative;
+                }
+            }
+            .cont3{
+                hr,p{
+                    left: 167px;
+                }
+            }
+            .cont4{
+                hr,p{
+                    left: 147px;
+                }
+            }
+            .cont5{
+                hr,p{
+                    left: 116px;
+                }
+            }
+        }
+       
+    }
+    .emirates{
+        position: relative;
+        margin-top: 410px;
+        .right,.left{
+            background-color: #FFF;
+            height: 1px;
+            width: 400px;
+        }
+        .right{
+            float: left;
+
+        }
+        h3{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 107.19%;
+            text-align: justify;
+            color: #FFFFFF;
+            display: inline-block;
+        }
+        .left{
+            float: right;
+
+        }
+    }
+}
